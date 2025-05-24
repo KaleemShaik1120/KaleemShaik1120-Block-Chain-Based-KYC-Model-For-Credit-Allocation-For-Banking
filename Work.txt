@@ -1,0 +1,54 @@
+Blockchain Based KYC Model for Credit Allocation in Banking
+
+IEEE Transaction Access on Blockchain,Volume:12,Issue Date:13.June.2024
+
+blockchain_based_kyc
+
+Members
+------
+
+
+TransactionID	
+CustomerID	
+CustomerDOB	
+CustGender	
+CustLocation	
+CustAccountBalance	
+TransactionDate	
+TransactionTime	
+TransactionAmount
+Creditscore
+Hashcode
+
+Database
+--------
+
+
+tid
+cid
+cdob
+cg
+cl
+cab
+td
+tt
+ta
+cc
+hc
+
+
+CREATE TABLE `datasets` (
+  `id` int(11) NOT NULL auto_increment,
+  tid text,
+cid text,
+cdob text,
+cg text,
+cl text,
+cab text,
+td text,
+tt text,
+ta text,
+cc text,
+hc text,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
